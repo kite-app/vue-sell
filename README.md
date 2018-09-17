@@ -1,4 +1,4 @@
-# kite-sell
+# vue-sell
 
 ## Project setup
 ```
