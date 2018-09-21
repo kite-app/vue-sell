@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Merchant from './views/merchant/merchant.vue'
+import Merchant from './views/merchant/merchant.vue';
 
 Vue.use(Router);
 

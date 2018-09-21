@@ -2,7 +2,7 @@
  * @Author: kite 
  * @Date: 2018-09-18 17:17:14 
  * @Last Modified by: kite
- * @Last Modified time: 2018-09-18 18:05:12
+ * @Last Modified time: 2018-09-21 13:42:32
  */
 module.exports = {
   devServer: {
@@ -10,7 +10,9 @@ module.exports = {
       host: '0.0.0.0',
       https: false,
       open: true,
-      proxy: {}
+      // proxy: {
+
+      // }
   },
   configureWebpack: config => {    
     if (process.env.NODE_ENV === 'production') {
